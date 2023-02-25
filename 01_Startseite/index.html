@@ -110,38 +110,47 @@
     <p>*Pflichtfelder</p>
 
     <form>
-        <label for="Firma">Firma</label><br>
-        <input type="text" id="Firma" name="Firma" value="Firma"> <br>
-        <label for="Anrede">Anrede*</label> <br>
-        <input type="text" id="Anrede" name="Anrede" value="Anrede*"> <br>
-        <label for="Titel">Titel</label> <br>
-        <input type="text" id="Titel" name="Titel" value="Titel"> <br>
-
-
-        <label for="Vorname">Vorname*</label> <br>
-        <input type="text" id="Vorname" name="Vorname" value="Vorname*"> <br>
+        <label for="firma">Firma</label><br>
+        <input type="text" id="firma" name="firma" value="Firma"> <br>
+        <label for="anrede">Anrede*</label> <br>
+        <select name="andredewahl" id="anredewahl">
+            <option value="a1">Anrede*</option>
+            <option value="a2">Herr</option>
+            <option value="a3">Frau</option>
+        </select>
+        <br>
+        <label for="titel">Titel</label> <br>
+        <select name="titelwahl" id="titelwahl">
+            <option value="t1">Titel</option>
+            <option value="t2">Dr.</option>
+            <option value="t3">Prof.</option>
+            <option value="t4">Prof. Dr.</option>
+        </select>
+        <br>
+        <label for="vorname">Vorname*</label> <br>
+        <input type="text" id="vorname" name="vorname" value="Vorname*"> <br>
         <label for="Nachname">Nachname*</label><br>
-        <input type="text" id="Nachname" name="Nachname" value="Nachname*"> <br>
-        <label for="Straße">Straße*</label><br>
-        <input type="text" id="Straße" name="Straße" value="Straße*"> <br>
-        <label for="Nummer">Nummer*</label><br>
-        <input type="text" id="Nr." name="Nr." value="Nr.*"> <br>
-        <label for="Postleitzahl">Postleitzahl*</label><br>
-        <input type="text" id="PLZ" name="PLZ" value="PLZ*"> <br>
+        <input type="text" id="nachname" name="nachname" value="Nachname*"> <br>
+        <label for="straße">Straße*</label><br>
+        <input type="text" id="straße" name="straße" value="Straße*"> <br>
+        <label for="nummer">Nummer*</label><br>
+        <input type="text" id="nr." name="nr." value="Nr.*"> <br>
+        <label for="postleitzahl">Postleitzahl*</label><br>
+        <input type="text" id="plz" name="plz" value="PLZ*"> <br>
         <label for="Ort">Ort*</label><br>
-        <input type="text" id="Ort" name="Ort" value="Ort*"> <br>
-        <label for="Adresszusatz">Adresszusatz*</label><br>
-        <input type="text" id="Adresszusatz" name="Adresszusatz" value="Adresszusatz"> <br>
-        <label for="E-Mail Adresse">E-Mail Adresse*</label><br>
-        <input type="text" id="E-Mail Adresse" name="E-Mail Adresse" value="E-Mail Adresse*"> <br>
+        <input type="text" id="ort" name="ort" value="Ort*"> <br>
+        <label for="adresszusatz">Adresszusatz</label><br>
+        <input type="text" id="adresszusatz" name="adresszusatz" value="Adresszusatz"> <br>
+        <label for="e-mail adresse">E-Mail Adresse*</label><br>
+        <input type="text" id="e-mail adresse" name="e-mail adresse" value="E-Mail Adresse*"> <br>
         <label for="Telefonnummer">Telefonnummer*</label><br>
-        <input type="text" id="Telefonnummer" name="Telefonnummer" value="Telefonnummer*"> <br>
-        <label for="Nachricht">Nachricht</label><br>
-        <input type="text" id="Nachricht" name="Nachricht" value="Nachricht"> <br> <br>
-        <input type="checkbox" id="AGB" name="AGB" value="AGB">
-        <label for="AGB">Ich habe die AGB gelesen und verstanden.</label> <br>
-        <input type="checkbox" id="Datenschutzhinweis" name="Datenschutzhinweis" value="Datenschutzhinweis">
-        <label for="Datenschutzhinweis">Ich habe die Hinweise zum Datenschutz gelesen und aktzeptiere diese.</label>
+        <input type="text" id="telefonnummer" name="telefonnummer" value="Telefonnummer*"> <br>
+        <label for="nachricht">Nachricht</label><br>
+        <input type="text" id="nachricht" name="nachricht" value="Nachricht"> <br> <br>
+        <input type="checkbox" id="agb" name="agb" value="AGB">
+        <label for="agb">Ich habe die AGB gelesen und verstanden.</label> <br>
+        <input type="checkbox" id="datenschutzhinweis" name="datenschutzhinweis" value="datenschutzhinweis">
+        <label for="datenschutzhinweis">Ich habe die Hinweise zum Datenschutz gelesen und aktzeptiere diese.</label>
         <br><br>
         <input type="button" value="Absenden">
         <input type="button" value="Formular leeren">
