@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   font-family: K2D;
-  font-size: 3em;
+  font-size: 2.5em;
   color: #77A170;
   font-weight: normal;
   text-align: center;
@@ -22,9 +22,15 @@ h2 {
 
 h3 {
   font-family: Poppins;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #3F66F1;
   font-weight: normal;
   text-align: center;
   margin: .5em;
+}
+
+#startbereich {
+  background-image: url("neon_header.jpg");
+  width: 1600px;
+  height: 970px
 }
