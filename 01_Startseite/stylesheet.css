@@ -81,7 +81,7 @@ p {
 
 
 
-.startbereich_hintergrundbild img{
+.startbereich_hintergrundbild img {
   max-width: 100%;
   height: auto;
 }
@@ -91,7 +91,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  filter: blur(3px) opacity(0.7);
   width: 100%;
   height: auto;
 }
@@ -103,7 +102,7 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
   text-shadow: 5px;
-  }
+}
 
 .startbereich_hintergrundbild h2 {
   position: absolute;
