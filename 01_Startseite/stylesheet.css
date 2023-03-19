@@ -17,7 +17,7 @@ h2 {
   color: #77A170;
   font-weight: normal;
   text-align: center;
-  margin: 1.5em;
+  margin: 1em;
 }
 
 h3 {
@@ -34,6 +34,15 @@ p {
   font-size: 1.5em;
   color: #685E5E;
   font-weight: normal;
+  text-align: center;
+  margin: .5em;
+}
+
+b {
+  font-family: 'Poppins';
+  font-size: 1.5em;
+  color: #3F66F1;
+  font-weight: bold;
   text-align: center;
   margin: .5em;
 }
@@ -119,3 +128,29 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.ueber_mich {
+  position: relative;
+}
+
+.ueber_mich p {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.ueber_mich img {
+    display: block;
+  margin: 0 auto 20px auto;
+  max-width: 100%;
+  height: auto;
+  padding: 50px;
+}
+
+.lebenslauf {
+  background-color: #F5F5DC;
+  padding: 2em;
+  text-align: center;
+}
+
+
