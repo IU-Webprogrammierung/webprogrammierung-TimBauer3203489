@@ -2,6 +2,22 @@ html {
   scroll-behavior: smooth;
 }
 
+button {
+  background-color: #3F66F1;
+  color: #F5F5DC;
+  border: none ;
+  box-shadow: 2px 2px #685E5E;
+  width: 235px;
+  height: 50px;
+  margin: 10px;
+  padding: 5px;
+  }
+
+button:hover {
+  background-color: #685E5E;
+  color: #F5F5DC;
+}
+
 h1 {
   font-family: 'K2D';
   font-size: 4em;
@@ -173,8 +189,8 @@ b {
 
 .box_1, .box_2, .box_3 {
   box-shadow: 0 0 50px #685E5E;
-  width: 30%;
-  margin-right: 3.33%;
+  width: 22.5%;
+  margin-right: 10.83%;
   }
 
 .disziplinen_cad, .disziplinen_rp, .disziplinen_dug {
@@ -194,3 +210,4 @@ b {
 width: 100%;
 height: auto;
 }
+
