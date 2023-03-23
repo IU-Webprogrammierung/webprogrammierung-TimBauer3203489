@@ -179,21 +179,27 @@ b {
 
 /* Lebenslauf ENDE '/
 
-/* Disziplinen START */
+/* Boxen Disziplinen u. Projekte START */
 
-.disziplinen_auflisten {
+.disziplinen_auflisten, .projekte_auflisten {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.box_1, .box_2, .box_3 {
+.disziplinen_auflisten h3, .projekte_auflisten h3 {
+  font-weight: bold;
+}
+
+.box_cad, .box_rp, .box_dug, .box_tts, .box_wd, .box_md {
   box-shadow: 0 0 50px #685E5E;
   width: 22.5%;
   margin-right: 10.83%;
+  margin-left: 5vw;
+  margin-right: 5vw;
   }
 
-.disziplinen_cad, .disziplinen_rp, .disziplinen_dug {
+.cad, .rp, .dug, .tts, .wd, .md {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -206,8 +212,12 @@ b {
   border-radius: 10px;
 }
 
-.disziplinen_cad img, .disziplinen_rp img, .disziplinen_dug img {
+.cad img, .rp img, .dug img, .tts img, .wd img, .md img{
 width: 100%;
-height: auto;
+max-height: 200px;
 }
+
+/* Boxen Disziplinen u. Projekte ENDE */
+
+/* Projekte START */
 
