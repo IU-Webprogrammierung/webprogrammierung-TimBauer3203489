@@ -239,48 +239,89 @@
             <form>
                 <label for="firma">Firma</label>
                 <input type="text" id="firma" name="firma" placeholder="Firma">
-                <label for="anrede">Anrede*</label>
-                <select name="andredewahl" id="anredewahl">
-                    <option value="a1">Anrede*</option>
-                    <option value="a2">Herr</option>
-                    <option value="a3">Frau</option>
-                </select>
-                <br>
-                <label for="titel">Titel</label>
-                <select name="titelwahl" id="titelwahl">
-                    <option value="t1">Titel</option>
-                    <option value="t2">Dr.</option>
-                    <option value="t3">Prof.</option>
-                    <option value="t4">Prof. Dr.</option>
-                </select>
-                <br>
-                <label for="vorname">Vorname*</label>
-                <input type="text" id="vorname" name="vorname" placeholder="Vorname*">
-                <label for="Nachname">Nachname*</label>
-                <input type="text" id="nachname" name="nachname" placeholder="Nachname*">
-                <label for="straße">Straße*</label>
-                <input type="text" id="straße" name="straße" placeholder="Straße*">
-                <label for="nummer">Nummer*</label>
-                <input type="text" id="nr." name="nr." placeholder="Nr.*">
-                <label for="postleitzahl">Postleitzahl*</label>
-                <input type="text" id="plz" name="plz" placeholder="PLZ*">
-                <label for="Ort">Ort*</label>
-                <input type="text" id="ort" name="ort" placeholder="Ort*">
+
+                <div class="reihe_anrede_titel">
+                    <div class="anrede">
+                        <label for="anrede">Anrede*</label>
+                        <select name="andredewahl" id="anredewahl">
+                            <option value="a1">Anrede*</option>
+                            <option value="a2">Herr</option>
+                            <option value="a3">Frau</option>
+                        </select>
+                    </div>
+
+                    <div class="titel">
+                        <label for="titel">Titel</label>
+                        <select name="titelwahl" id="titelwahl">
+                            <option value="t1">Titel</option>
+                            <option value="t2">Dr.</option>
+                            <option value="t3">Prof.</option>
+                            <option value="t4">Prof. Dr.</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="reihe_vname_nname">
+                    <div class="vname">
+                        <label for="vorname">Vorname*</label>
+                        <input type="text" id="vorname" name="vorname" placeholder="Vorname*">
+                    </div>
+                    <div class="nname">
+                        <label for="Nachname">Nachname*</label>
+                        <input type="text" id="nachname" name="nachname" placeholder="Nachname*">
+                    </div>
+                </div>
+
+                <div class="reihe_str_nr">
+                    <div class="str">
+                        <label for="straße">Straße*</label>
+                        <input type="text" id="straße" name="straße" placeholder="Straße*">
+                    </div>
+                    <div class="nr">
+                        <label for="nummer">Nummer*</label>
+                        <input type="text" id="nr." name="nr." placeholder="Nr.*">
+                    </div>
+                </div>
+
+                <div class="reihe_plz_ort">
+                    <div class="plz">
+                        <label for="postleitzahl">Postleitzahl*</label>
+                        <input type="text" id="plz" name="plz" placeholder="PLZ*">
+                    </div>
+                    <div class="ort">
+                        <label for="Ort">Ort*</label>
+                        <input type="text" id="ort" name="ort" placeholder="Ort*">
+                    </div>
+                </div>
+
                 <label for="adresszusatz">Adresszusatz</label>
                 <input type="text" id="adresszusatz" name="adresszusatz" placeholder="Adresszusatz">
-                <label for="e-mail adresse">E-Mail Adresse*</label>
-                <input type="text" id="e-mail adresse" name="e-mail adresse" placeholder="E-Mail Adresse*">
-                <label for="Telefonnummer">Telefonnummer*</label>
-                <input type="text" id="telefonnummer" name="telefonnummer" placeholder="Telefonnummer*">
-                <label for="nachricht">Nachricht</label>
-                <input type="text" id="nachricht" name="nachricht" placeholder="Nachricht"> <br> <br>
-                <input type="checkbox" id="agb" name="agb" placeholder="AGB">
-                <label for="agb">Ich habe die AGB gelesen und verstanden.*</label>
-                <input type="checkbox" id="datenschutzhinweis" name="datenschutzhinweis"
-                    placeholder="datenschutzhinweis">
-                <label for="datenschutzhinweis">Ich habe die Hinweise zum Datenschutz gelesen und aktzeptiere
-                    diese.*</label>
-                <br><br>
+
+                <div class="reihe_mail_tnr">
+                    <div class="mail">
+                        <label for="e-mail adresse">E-Mail Adresse*</label>
+                        <input type="text" id="e-mail adresse" name="e-mail adresse" placeholder="E-Mail Adresse*">
+                    </div>
+                    <div class="tnr">
+                        <label for="Telefonnummer">Telefonnummer*</label>
+                        <input type="text" id="telefonnummer" name="telefonnummer" placeholder="Telefonnummer*">
+                    </div>
+                </div>
+
+                <div class="nachricht">
+                    <label for="nachricht">Nachricht</label>
+                    <input type="text" id="nachricht" name="nachricht" placeholder="Nachricht">
+                </div>
+
+                <div class="checkboxes">
+                    <input type="checkbox" id="agb" name="agb" value="AGB">
+                    <label for="agb">Ich habe die AGB gelesen und verstanden.*</label>
+                    <input type="checkbox" id="datenschutzhinweis" name="datenschutzhinweis" value="datenschutzhinweis">
+                    <label for="datenschutzhinweis">Ich habe die Hinweise zum Datenschutz gelesen und aktzeptiere
+                        diese.*
+                    </label>
+                </div>
+
                 <input type="button" value="Absenden">
                 <input type="button" value="Formular leeren">
             </form>

@@ -5,13 +5,13 @@ html {
 button {
   background-color: #3F66F1;
   color: #F5F5DC;
-  border: none ;
+  border: none;
   box-shadow: 2px 2px #685E5E;
   width: 235px;
   height: 50px;
   margin: 10px;
   padding: 5px;
-  }
+}
 
 button:hover {
   background-color: #685E5E;
@@ -181,25 +181,37 @@ b {
 
 /* Boxen Disziplinen u. Projekte START */
 
-.disziplinen_auflisten, .projekte_auflisten {
+.disziplinen_auflisten,
+.projekte_auflisten {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.disziplinen_auflisten h3, .projekte_auflisten h3 {
+.disziplinen_auflisten h3,
+.projekte_auflisten h3 {
   font-weight: bold;
 }
 
-.box_cad, .box_rp, .box_dug, .box_tts, .box_wd, .box_md {
+.box_cad,
+.box_rp,
+.box_dug,
+.box_tts,
+.box_wd,
+.box_md {
   box-shadow: 0 0 50px #685E5E;
   width: 22.5%;
   margin-right: 10.83%;
   margin-left: 5vw;
   margin-right: 5vw;
-  }
+}
 
-.cad, .rp, .dug, .tts, .wd, .md {
+.cad,
+.rp,
+.dug,
+.tts,
+.wd,
+.md {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,9 +224,14 @@ b {
   border-radius: 10px;
 }
 
-.cad img, .rp img, .dug img, .tts img, .wd img, .md img{
-width: 100%;
-max-height: 200px;
+.cad img,
+.rp img,
+.dug img,
+.tts img,
+.wd img,
+.md img {
+  width: 100%;
+  max-height: 200px;
 }
 
 /* Boxen Disziplinen u. Projekte ENDE */
@@ -230,10 +247,10 @@ max-height: 200px;
 /* Kontakt START */
 
 .form_formularfeld {
-  width: 80%;
+  width: 40%;
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 label {
@@ -248,6 +265,7 @@ input[type="text"] {
   padding: 10px;
   font-family: 'Roboto';
   font-size: 16px;
+  width: 100%;
   border-radius: 5px;
   border: 1px solid #685E5E;
 }
@@ -268,7 +286,7 @@ select {
   border-radius: 5px;
   padding: 5px 10px;
   background-color: #f8f8f8;
-  }
+}
 
 select:focus {
   outline: none;
@@ -276,3 +294,49 @@ select:focus {
   box-shadow: 0 0 10px #685E5E;
 }
 
+/* Reihen einzeln aufgelistet für max. Felxibilität bei Änderungen*/
+
+.reihe_anrede_titel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.reihe_vname_nname {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.reihe_str_nr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.reihe_plz_ort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.reihe_mail_tnr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.checkboxes {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.checkboxes label {
+  display: inline-block;
+  margin-left: 0.5em;
+}
