@@ -219,5 +219,60 @@ max-height: 200px;
 
 /* Boxen Disziplinen u. Projekte ENDE */
 
+
+
 /* Projekte START */
+
+/* Projekte ENDE */
+
+
+
+/* Kontakt START */
+
+.form_formularfeld {
+  width: 80%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+label {
+  display: block;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #685E5E;
+}
+
+input[type="text"]::placeholder {
+  color: #685E5E;
+}
+
+input[type="text"]:focus::placeholder {
+  visibility: hidden;
+}
+
+select {
+  font-family: 'Roboto', bold;
+  font-size: 16px;
+  color: #685E5E;
+  border: 1px solid #685E5E;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #f8f8f8;
+  }
+
+select:focus {
+  outline: none;
+  border-color: #685E5E;
+  box-shadow: 0 0 10px #685E5E;
+}
 
