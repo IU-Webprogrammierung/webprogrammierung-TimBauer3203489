@@ -369,6 +369,7 @@ select:focus {
 
 .footer p:not(:first-of-type):hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /* Footer ENDE */
