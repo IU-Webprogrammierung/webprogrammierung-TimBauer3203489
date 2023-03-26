@@ -2,21 +2,65 @@ html {
   scroll-behavior: smooth;
 }
 
-button {
+/* Buttons START */
+
+.button {
+  display: inline-block;
   background-color: #3F66F1;
   color: #F5F5DC;
   border: none;
-  box-shadow: 2px 2px #685E5E;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #685E5E;
   width: 235px;
   height: 50px;
   margin: 10px;
-  padding: 5px;
+  font-family: 'Roboto';
+  font-weight: medium;
 }
 
-button:hover {
-  background-color: #685E5E;
-  color: #F5F5DC;
+.button:hover {
+  background-color: #99aae7;
 }
+
+.button:active {
+  background-color: #79dbf3;
+  box-shadow: 2px 2px 2px #a09e9e;
+}
+
+.secondary-button {
+  display: inline-block;
+  background-color: #F5F5DC;
+  color: #3F66F1;
+  border: 2.5px solid #3F66F1;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px #685E5E;
+  width: 235px;
+  height: 50px;
+  margin: 10px;
+  font-family: 'Roboto';
+  font-weight: medium;
+}
+
+.secondary-button:hover {
+  background-color: #99aae7;
+}
+
+.secondary-button:active {
+  background-color: #79dbf3;
+  box-shadow: 2px 2px 2px #a09e9e;
+}
+
+/* Buttons ENDE */
+
+
 
 h1 {
   font-family: 'K2D';
