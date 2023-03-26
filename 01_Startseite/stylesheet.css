@@ -107,6 +107,11 @@ b {
   margin: .5em;
 }
 
+/*Abstände zu vorausgehenden Abschnitten */
+
+.ueber_mich, .lebenslauf, .disziplinen, .projekte, .kontakt {
+  margin-top: 6em;
+}
 
 /* Top Navigation START */
 
@@ -193,22 +198,20 @@ b {
 
 /*Über mich START */
 
-.ueber_mich {
-  position: relative;
+.ueber_mich_inhalt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.ueber_mich p {
-  margin: 0 auto 20px auto;
-  text-align: center;
-  padding: 50px;
+.ueber_mich_inhalt p {
+  flex-basis: 40%;
+  margin-left: 15%;
+  margin-right: 10%;
 }
 
-.ueber_mich img {
-  display: block;
-  margin: 0 auto 20px auto;
-  max-width: 100%;
-  height: auto;
-  padding: 50px;
+.ueber_mich_inhalt img {
+  flex-basis: 20%;
 }
 
 /* Über mich ENDE */
