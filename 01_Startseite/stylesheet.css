@@ -64,7 +64,7 @@ html {
 
 h1 {
   font-family: 'K2D';
-  font-size: 8em;
+  font-size: 6em;
   color: #3F66F1;
   font-weight: bold;
   text-align: center;
@@ -171,10 +171,8 @@ b {
 .startbereich::before {
   content: "";
   position: absolute;
-  top: 20vh;
-  left: 20vh;
-  width: 80%;
-  height: 80%;
+  width: 75%;
+  height: 75%;
   background-color: #f8f8f8;
   opacity: 0.7;
 }
@@ -182,6 +180,10 @@ b {
 .startbereich h1, .startbereich h2, .startbereich p, .startbereich input {
   position: relative;
   z-index: 1;
+}
+
+.startbereich p {
+  width: 50%;
 }
 
 /*Startbereich ENDE */
@@ -241,6 +243,17 @@ b {
   margin-right: 10.83%;
   margin-left: 5vw;
   margin-right: 5vw;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.box_cad:hover,
+.box_rp:hover,
+.box_dug:hover,
+.box_tts:hover,
+.box_wd:hover,
+.box_md:hover {
+  box-shadow: 0 0 120px #1b1b1b;
 }
 
 .cad,
