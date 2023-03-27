@@ -64,18 +64,18 @@ html {
 
 h1 {
   font-family: 'K2D';
-  font-size: 4em;
+  font-size: 8em;
   color: #3F66F1;
   font-weight: bold;
   text-align: center;
-  margin: 2em;
+  margin: 1em;
 }
 
 h2 {
   font-family: 'K2D';
   font-size: 2.5em;
   color: #77A170;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
   margin: 1em;
 }
@@ -96,6 +96,7 @@ p {
   font-weight: normal;
   text-align: center;
   margin: .5em;
+  line-height: 1.75;
 }
 
 b {
@@ -155,43 +156,32 @@ b {
 
 /* Startbereich START */
 
-.startbereich_hintergrundbild img {
-  max-width: 100%;
-  height: auto;
-}
-
-.startbereich_hintergrundbild {
-  background-image: url("neon_header.jpg");
-  background-repeat: no-repeat;
+.startbereich {
+  background-image: url("neon_header.jpeg");
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: auto;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.startbereich_hintergrundbild h1 {
+.startbereich::before {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-shadow: 5px;
+  top: 20vh;
+  left: 20vh;
+  width: 80%;
+  height: 80%;
+  background-color: #f8f8f8;
+  opacity: 0.7;
 }
 
-.startbereich_hintergrundbild h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.startbereich_hintergrundbild p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+.startbereich h1, .startbereich h2, .startbereich p, .startbereich input {
+  position: relative;
+  z-index: 1;
 }
 
 /*Startbereich ENDE */
