@@ -97,6 +97,12 @@ h1 {
   margin: 1em;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
 h2 {
   font-family: 'K2D';
   font-size: 2.5em;
@@ -104,6 +110,12 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5em;
+  }
 }
 
 h3 {
@@ -115,6 +127,12 @@ h3 {
   margin: .5em;
 }
 
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1em;
+  }
+}
+
 p {
   font-family: 'Roboto';
   font-size: 1.5em;
@@ -123,6 +141,12 @@ p {
   text-align: center;
   margin: .5em;
   line-height: 1.75;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1em;
+  }
 }
 
 b {
@@ -184,6 +208,12 @@ b {
   font-size: 1.5em;
 }
 
+@media only screen and (max-width: 768px) {
+  .topnav li a {
+    font-size: 1.2em;
+  }
+}
+
 .topnav li a:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -221,6 +251,24 @@ b {
 .startbereich input {
   position: relative;
   z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .startbereich h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .startbereich h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .startbereich p {
+    font-size: 1em;
+  }
 }
 
 .startbereich p {
