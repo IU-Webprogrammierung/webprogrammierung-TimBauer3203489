@@ -15,7 +15,7 @@ html {
   text-align: center;
   text-decoration: none;
   box-shadow: 5px 5px 5px #685E5E;
-  width: 235px;
+  width: 220px;
   height: 50px;
   margin: 3em;
   font-family: 'Roboto';
@@ -42,7 +42,7 @@ html {
   text-align: center;
   text-decoration: none;
   box-shadow: 5px 5px 5px #685E5E;
-  width: 235px;
+  width: 220px;
   height: 50px;
   margin: 3em;
   font-family: 'Roboto';
@@ -83,6 +83,8 @@ html {
 .nach-oben-button:hover {
   opacity: 1;
 }
+
+/* Nach Oben Button ENDE */
 
 /* Headlines START */
 
@@ -236,13 +238,14 @@ b {
 }
 
 .ueber_mich_inhalt p {
-  flex-basis: 40%;
-  margin-left: 15%;
-  margin-right: 10%;
+  flex-basis: 35%;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .ueber_mich_inhalt img {
   flex-basis: 20%;
+  margin-right: 10%;
 }
 
 /* Über mich ENDE */
