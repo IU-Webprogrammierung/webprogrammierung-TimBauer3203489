@@ -145,7 +145,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 
@@ -156,6 +156,12 @@ b {
   font-weight: bold;
   text-align: center;
   margin: .5em;
+}
+
+@media only screen and (max-width: 768px) {
+  b {
+    font-size: 0.8em;
+  }
 }
 
 /* Headlines ENDE */
@@ -210,7 +216,7 @@ b {
 
 @media only screen and (max-width: 768px) {
   .topnav li a {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
 
@@ -267,7 +273,7 @@ b {
 
 @media only screen and (max-width: 768px) {
   .startbereich p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 
@@ -281,7 +287,6 @@ b {
 
 .ueber_mich_inhalt {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -292,7 +297,7 @@ b {
 }
 
 .ueber_mich_inhalt img {
-  flex-basis: 20%;
+  max-width: 35%;
   margin-right: 10%;
 }
 
@@ -427,10 +432,19 @@ b {
 /* Kontakt START */
 
 .form_formularfeld {
-  width: 40%;
+  width: 50%;
   text-align: left;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .form_formularfeld {
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 label {
