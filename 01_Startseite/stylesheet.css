@@ -299,6 +299,11 @@ b {
   max-height: 200px;
 }
 
+.button_weitere_infos,
+.button_weitere_projekte {
+  display: flex;
+  justify-content: center;
+}
 
 /* Boxen Disziplinen u. Projekte ENDE */
 
