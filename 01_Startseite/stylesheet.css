@@ -60,6 +60,30 @@ html {
 
 /* Buttons ENDE */
 
+
+/* Nach Oben Button START */
+
+.nach-oben-button {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  background-color: #99aae7;
+  color: #1b1b1b;
+  border: 3px solid #1b1b1b;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+  font-family: 'Roboto';
+  font-weight: bold;
+  z-index: 9999;
+}
+
+.nach-oben-button:hover {
+  opacity: 1;
+}
+
 /* Headlines START */
 
 h1 {
@@ -312,10 +336,11 @@ b {
 .zitat {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   height: 500px;
   background-color: #F2EFEF;
+  width: 100%;
 }
 
 .zitat_textbereich {
