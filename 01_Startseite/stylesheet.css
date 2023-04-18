@@ -25,7 +25,7 @@ html {
 @media only screen and (max-width: 768px) {
   .button {
     font-size: 14px;
-    width: 180px;
+    width: 160px;
     height: 40px;
     margin: 2em;
   }
@@ -61,7 +61,7 @@ html {
 @media only screen and (max-width: 768px) {
   .secondary-button {
     font-size: 14px;
-    width: 180px;
+    width: 160px;
     height: 40px;
     margin: 2em;
   }
@@ -240,16 +240,43 @@ b {
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 768px) {
-  .topnav li a {
-    font-size: 1em;
-  }
-}
-
 .topnav li a:hover {
   text-decoration: underline;
   cursor: pointer;
   color: #a09e9e;
+}
+
+.burger-menü {
+  display: none;
+}
+
+.burger-menü label {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #a09e9e;
+  display: block;
+}
+
+.burger-menü ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.burger-menü li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .topnav {
+    display: none;
+  }
+  .burger-menü {
+    display: block;
+  }
 }
 
 /* Top Navigation ENDE */
