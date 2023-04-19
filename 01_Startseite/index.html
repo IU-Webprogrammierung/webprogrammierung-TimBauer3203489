@@ -25,7 +25,8 @@
 </head>
 
 <body>
-
+    <a id="start"></a>
+    
     <!--Top Navigation Start-->
     <div class="topnav">
         <img src="firmenlogo.JPG" alt="firmenlogo">
@@ -40,18 +41,21 @@
     <!--Top Navigation Ende-->
 
     <!--Burger-Menü Start-->
-    <div class="burger-menü">
-        <input type="checkbox" id="burger-toggle">
-        <label for="burger-toggle">&#9776;</label>
-        <ul>
-            <li><a href="#start">Start</a></li>
-            <li><a href="#ueber_mich">Über mich</a></li>
-            <li><a href="#disziplinen">Disziplinen</a></li>
-            <li><a href="#projekte">Projekte</a></li>
-            <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+    <button class="burger" onclick="toggleMenu()"></button>
+    <div class="burger_hintergrund"></div>
+    <div class="menu">
+        <nav>
+            <a href="#start" style="animation-delay: 0.2s;">Start</a>
+            <a href="#ueber_mich" style="animation-delay: 0.2s;">Über mich</a>
+            <a href="#disziplinen" style="animation-delay: 0.2s;">Disziplinen</a>
+            <a href="#projekte" style="animation-delay: 0.2s;">Projekte</a>
+            <a a href="#kontakt" style="animation-delay: 0.2s;">Kontakt</a>
+        </nav>
     </div>
-<!--Burger-Menü Ende-->
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+    <!--Burger-Menü Ende-->
 
     <a href="#" class="nach-oben-button">Nach Oben!</a>
 
