@@ -555,6 +555,12 @@ body.open .menu a {
   width: 100%;
 }
 
+@media only screen and (max-width: 768px) {
+  .zitat {
+    height: 350px;
+  }
+}
+
 .zitat_textbereich {
   display: flex;
   flex-direction: column;
@@ -569,12 +575,34 @@ body.open .menu a {
   margin-right: 5%;
 }
 
+@media only screen and (max-width: 768px) {
+  .zitat img {
+    height: 200px;
+  }
+}
+
 .zitat_text {
   font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .zitat_text {
+    font-size: 1em;
+  }
 }
 
 .person {
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .person {
+    font-size: 1em;
+  }
 }
 
 /* Zitate ENDE */
