@@ -268,11 +268,6 @@ b {
   height: 80px;
 }
 
-.burger img {
-  width: auto;
-  height: 100%;
-}
-
 .burger_hintergrund {
   position: fixed;
   z-index: 2;
