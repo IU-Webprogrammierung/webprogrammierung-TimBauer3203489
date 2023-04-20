@@ -268,6 +268,10 @@ b {
   height: 80px;
 }
 
+.burger img {
+  width: auto;
+  height: 100%;
+}
 
 .burger_hintergrund {
   position: fixed;
@@ -344,8 +348,8 @@ body .menu nav>a:hover {
   margin-top: 2px;
   width: 10px;
   height: 10px;
-  border-top: 3px solid #F2EFEF;
-  border-right: 3px solid #F2EFEF;
+  border-top: 3px solid #F5F5DC;
+  border-right: 3px solid #F5F5DC;
   opacity: 0;
   rotate: 45deg;
   transition: 0.3s;
