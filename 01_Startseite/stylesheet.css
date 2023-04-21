@@ -616,10 +616,10 @@ body.open .menu a {
 /* Kontakt START */
 
 .form_formularfeld {
-  width: 50%;
+  width: 70%;
   text-align: left;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -719,8 +719,9 @@ select:focus {
   margin-left: 0.5em;
 }
 
-/*Buttons ergänzen */
-
+.checkboxes .unterstrichen {
+  text-decoration: underline;
+}
 
 /* Kontakt ENDE */
 
