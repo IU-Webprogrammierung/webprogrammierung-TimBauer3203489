@@ -255,6 +255,7 @@ b {
 }
 
 @media only screen and (max-width: 768px) {
+
   .ueber_mich,
   .lebenslauf,
   .disziplinen,
@@ -300,6 +301,12 @@ b {
   color: #685E5E;
   font-family: 'Roboto';
   font-size: 1.5em;
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .topnav li a {
+    font-size: 1.2em;
+  }
 }
 
 .topnav li a:hover {
@@ -505,20 +512,23 @@ body.open .menu a {
 
 .ueber_mich_inhalt {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .ueber_mich_inhalt p {
-  flex-basis: 35%;
-  margin-left: 10%;
-  margin-right: 5%;
+  flex-basis: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 1200px;
   text-align: justify;
   hyphens: auto;
 }
 
 .ueber_mich_inhalt img {
-  max-width: 35%;
-  margin-right: 10%;
+  max-width: 1200px;
+  margin-right: 0;
+  margin-top: 1em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -542,6 +552,26 @@ body.open .menu a {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .ueber_mich_inhalt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ueber_mich_inhalt p {
+    flex-basis: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 900px;
+  }
+
+  .ueber_mich_inhalt img {
+    max-width: 950px;
+    margin-right: 0;
+    margin-top: 1em;
+  }
+}
 
 /* Über mich ENDE */
 
@@ -557,11 +587,18 @@ body.open .menu a {
 
 /* Boxen Disziplinen u. Projekte START */
 
+.disziplinen,
+.projekte {
+  max-width: 1200px;
+}
+
 .disziplinen_auflisten,
 .projekte_auflisten {
   position: relative;
   display: flex;
   justify-content: space-between;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .disziplinen_auflisten h3,
@@ -576,10 +613,8 @@ body.open .menu a {
 .box_wd,
 .box_md {
   box-shadow: 0 0 50px #685E5E;
-  width: 22.5%;
-  margin-right: 10.83%;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  width: 27.5%;
+  margin: 2.5%;
   cursor: pointer;
   transition: box-shadow 0.3s ease-in-out;
 }
@@ -625,11 +660,13 @@ body.open .menu a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 500px;
+  height: 800px;
   border: 5px solid #685E5E;
-  padding: 10px;
+  padding: auto;
   background-color: #F5F5DC;
   border-radius: 10px;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .cad img,
@@ -638,8 +675,9 @@ body.open .menu a {
 .tts img,
 .wd img,
 .md img {
-  width: 100%;
-  max-height: 200px;
+  max-width: 90%;
+  max-height: 250px;
+  margin-bottom: 40px;
 }
 
 .button_weitere_infos,
