@@ -522,6 +522,27 @@ body.open .menu a {
   transition: box-shadow 0.3s ease-in-out;
 }
 
+/* Rondell TEST 
+
+@media screen and (max-width: 767px) {
+  .disziplinen_auflisten {
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .box_cad,
+  .box_rp,
+  .box_dug {
+    flex-shrink: 0;
+    margin-right: 10px;
+    scroll-snap-align: start;
+  }
+}
+
+*/
+
 .box_cad:hover,
 .box_rp:hover,
 .box_dug:hover,
