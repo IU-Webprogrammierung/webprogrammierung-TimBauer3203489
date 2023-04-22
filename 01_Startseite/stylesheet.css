@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  max-width: 1400px;
+}
+
 /* Buttons START */
 
 .button {
@@ -11,7 +15,7 @@ html {
   border: none;
   border-radius: 15px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   text-decoration: none;
   box-shadow: 5px 5px 5px #685E5E;
@@ -26,6 +30,15 @@ html {
   .button {
     font-size: 14px;
     width: 160px;
+    height: 40px;
+    margin: 2em;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .button {
+    font-size: 16px;
+    width: 180px;
     height: 40px;
     margin: 2em;
   }
@@ -62,6 +75,15 @@ html {
   .secondary-button {
     font-size: 14px;
     width: 160px;
+    height: 40px;
+    margin: 2em;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  .secondary-button {
+    font-size: 16px;
+    width: 180px;
     height: 40px;
     margin: 2em;
   }
@@ -129,6 +151,12 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
 h2 {
   font-family: 'K2D';
   font-size: 2.5em;
@@ -144,6 +172,12 @@ h2 {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  h2 {
+    font-size: 2em;
+  }
+}
+
 h3 {
   font-family: 'Poppins';
   font-size: 1.5em;
@@ -156,6 +190,12 @@ h3 {
 @media only screen and (max-width: 768px) {
   h3 {
     font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  h3 {
+    font-size: 1.25em;
   }
 }
 
@@ -175,6 +215,12 @@ p {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  p {
+    font-size: 1em;
+  }
+}
+
 b {
   font-family: 'Poppins';
   font-size: 1.5em;
@@ -190,6 +236,12 @@ b {
   }
 }
 
+@media only screen and (min-width: 769px) and (max-width:991px) {
+  b {
+    font-size: 1em;
+  }
+}
+
 /* Headlines ENDE */
 
 /*Abstände zu vorausgehenden Abschnitten */
@@ -200,6 +252,16 @@ b {
 .projekte,
 .kontakt {
   margin-top: 6em;
+}
+
+@media only screen and (max-width: 768px) {
+  .ueber_mich,
+  .lebenslauf,
+  .disziplinen,
+  .projekte,
+  .kontakt {
+    margin-top: 4em;
+  }
 }
 
 /* Top Navigation START */
