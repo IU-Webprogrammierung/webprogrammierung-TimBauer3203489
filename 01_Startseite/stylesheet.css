@@ -450,12 +450,36 @@ body.open .menu a {
   flex-basis: 35%;
   margin-left: 10%;
   margin-right: 5%;
+  text-align: justify;
+  hyphens: auto;
 }
 
 .ueber_mich_inhalt img {
   max-width: 35%;
   margin-right: 10%;
 }
+
+@media only screen and (max-width: 768px) {
+  .ueber_mich_inhalt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ueber_mich_inhalt p {
+    flex-basis: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 600px;
+  }
+
+  .ueber_mich_inhalt img {
+    max-width: 700px;
+    margin-right: 0;
+    margin-top: 1em;
+  }
+}
+
 
 /* Über mich ENDE */
 
