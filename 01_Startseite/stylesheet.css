@@ -619,27 +619,6 @@ body.open .menu a {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-/* Rondell TEST 
-
-@media screen and (max-width: 767px) {
-  .disziplinen_auflisten {
-    display: flex;
-    justify-content: center;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-  }
-
-  .box_cad,
-  .box_rp,
-  .box_dug {
-    flex-shrink: 0;
-    margin-right: 10px;
-    scroll-snap-align: start;
-  }
-}
-
-*/
-
 .box_cad:hover,
 .box_rp:hover,
 .box_dug:hover,
@@ -685,6 +664,60 @@ body.open .menu a {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 786px) {
+
+  .disziplinen_auflisten,
+  .projekte_auflisten {
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+  }
+
+  .box_cad,
+  .box_rp,
+  .box_dug,
+  .box_tts,
+  .box_wd,
+  .box_md {
+    flex-shrink: 0;
+    width: 75%;
+    margin-right: 10%;
+  }
+
+  .cad,
+  .rp,
+  .dug,
+  .tts,
+  .wd,
+  .md {
+    height: 500px;
+  }
+
+  .cad p,
+  .rp p,
+  .dug p,
+  .tts p,
+  .wd p,
+  .md p {
+    height: 500px;
+    max-height: 100%;
+    font-size: 1em;
+  }
+
+  .cad img,
+  .rp img,
+  .dug img,
+  .tts img,
+  .wd img,
+  .md img {
+    max-height: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
 
 /* Boxen Disziplinen u. Projekte ENDE */
 
