@@ -701,12 +701,11 @@ body.open .menu a {
   justify-content: center;
 }
 
-@media (max-width: 786px) {
+@media only screen and (max-width: 768px) {
 
   .disziplinen_auflisten,
   .projekte_auflisten {
     overflow-x: scroll;
-    white-space: nowrap;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 10px;
   }
@@ -720,6 +719,7 @@ body.open .menu a {
     flex-shrink: 0;
     width: 75%;
     margin-right: 10%;
+
   }
 
   .cad,
@@ -731,6 +731,16 @@ body.open .menu a {
     height: 500px;
   }
 
+  .cad h3,
+  .rp h3,
+  .dug h3,
+  .tts h3,
+  .wd h3,
+  .md h3 {
+    max-height: 100%;
+    font-size: 1.5em;
+  }
+
   .cad p,
   .rp p,
   .dug p,
@@ -739,7 +749,7 @@ body.open .menu a {
   .md p {
     height: 500px;
     max-height: 100%;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .cad img,
