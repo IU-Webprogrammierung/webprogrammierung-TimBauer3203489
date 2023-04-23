@@ -6,6 +6,10 @@ body {
   max-width: 1400px;
 }
 
+
+
+
+
 /* Buttons START */
 
 .button {
@@ -101,6 +105,9 @@ body {
 /* Buttons ENDE */
 
 
+
+
+
 /* Nach Oben Button START */
 
 .nach-oben-button {
@@ -133,6 +140,10 @@ body {
 }
 
 /* Nach Oben Button ENDE */
+
+
+
+
 
 /* Headlines START */
 
@@ -244,7 +255,11 @@ b {
 
 /* Headlines ENDE */
 
-/*Abstände zu vorausgehenden Abschnitten */
+
+
+
+
+/*Abstände zu vorausgehenden Abschnitten START */
 
 .ueber_mich,
 .lebenslauf,
@@ -264,6 +279,11 @@ b {
     margin-top: 4em;
   }
 }
+
+/*Abstände zu vorausgehenden Abschnitten ENDE */
+
+
+
 
 /* Top Navigation START */
 
@@ -449,6 +469,10 @@ body.open .menu a {
 
 /* Top Navigation ENDE */
 
+
+
+
+
 /* Startbereich START */
 
 .startbereich {
@@ -507,6 +531,10 @@ body.open .menu a {
 }
 
 /*Startbereich ENDE */
+
+
+
+
 
 /*Über mich START */
 
@@ -575,6 +603,10 @@ body.open .menu a {
 
 /* Über mich ENDE */
 
+
+
+
+
 /* Lebenslauf START */
 
 .lebenslauf {
@@ -584,6 +616,10 @@ body.open .menu a {
 }
 
 /* Lebenslauf ENDE '/
+
+
+
+
 
 /* Boxen Disziplinen u. Projekte START */
 
@@ -718,8 +754,11 @@ body.open .menu a {
   }
 }
 
-
 /* Boxen Disziplinen u. Projekte ENDE */
+
+
+
+
 
 /* Zitate START */
 
@@ -785,9 +824,14 @@ body.open .menu a {
 
 /* Zitate ENDE */
 
-/* Projekte START */
 
+
+
+
+/* Projekte START */
 /* Projekte ENDE */
+
+
 
 
 
@@ -902,6 +946,8 @@ select:focus {
 }
 
 /* Kontakt ENDE */
+
+
 
 
 
